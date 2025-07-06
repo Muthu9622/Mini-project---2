@@ -1,0 +1,18 @@
+📁 Project Structure
+
+```
+📂 project/
+│
+├── Dataset/                        # Raw YAML stock data (by date)
+├── symbol_csvs/                   # Cleaned individual stock CSVs (1 per symbol)
+├── stock_summary.csv              # Summary of key metrics for all stocks
+├── all_returns.csv                # Daily & cumulative return per stock
+├── monthly_returns.csv            # Monthly gainers/losers
+├── correlation_matrix.csv         # Correlation heatmap matrix
+├── stock_data.db                  # SQLite database
+│
+├── app.py                         # Streamlit app code
+├── PowerBI_Dashboard.pbix         # Power BI interactive visuals
+├── Nifty50_Project_Presentation.pptx
+├── Nifty50_Final_Project_Report.pdf
+└── README.md                      # This file
